@@ -14,5 +14,5 @@ CHIP Bit {
     OUT out;
 
     PARTS:
-Mux(a=gayout,b=in,sel=load,out=a);
-DFF(in=a,out=out,out=gayout);
+Mux(a=outRetorno,b=in,sel=load,out=a);
+DFF(in=a,out=out,out=outRetorno);
